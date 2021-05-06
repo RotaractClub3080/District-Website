@@ -1,0 +1,108 @@
+.boardImg1{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.2;
+}
+.boardImg2{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+.boardImg3{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+.boardImg4{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+.boardImg5{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+.boardImg6{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.boardImg7{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.imgContainer{
+    height:60vh;
+    padding:2vh;
+}
+
+.boardImg1:hover{
+    animation: fadeIn 2s;
+}
+.boardImg2:hover{
+    animation: fadeIn 2s;
+}
+.boardImg3:hover{
+    animation: fadeIn 2s;
+}
+.boardImg4:hover{
+    animation: fadeIn 2s;
+}
+.boardImg5:hover{
+    animation: fadeIn 2s;
+}
+.boardImg6:hover{
+    animation: fadeIn 2s;
+}
+.boardImg7:hover{
+    animation: fadeIn 2s;
+}
+
+.nameText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    color: white;
+}
+
+
+
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.boardContainer{
+    max-width: 100vw;
+    width: 100vw;
+}
+
+
+

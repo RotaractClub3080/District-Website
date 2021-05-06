@@ -1,0 +1,91 @@
+.cardHeader{
+    background: black;
+    color:white;
+}
+
+.cardBody{
+    background: black;
+    color: white;
+}
+
+.video{
+    background: rgb(28, 32, 38);
+    padding: 0px;
+    margin: 8vh;
+}
+.mainpage{
+    margin: 0px !important;
+    padding: 0px;
+    width:100vw;
+    max-width: 100vw;
+}
+
+.videoRow{
+    margin-top:20vh;
+    margin-bottom: 20vh;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.logoCol{
+    width: 70vw;
+    padding: 0px;
+}
+
+.logoRow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team{
+    max-width: 100vw;
+    width: 100wv;
+    max-height: 80vh;
+    height: 60vh;
+    display: flex;
+    overflow-x:auto;
+    overflow-y: hidden;
+}
+
+
+.team::-webkit-scrollbar-thumb{
+    background-color: rgb(59, 61, 64);
+    border-radius: 2vh;
+    border-color: black;
+    border: 1vh;
+}
+
+
+
+.cards{
+    background-color: black;
+    margin: 0px;
+    padding: 0px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40vh;
+    height: 100%;
+}
+
+.cards:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.cardbody{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100% ;
+
+}
+
+.teams{
+    margin-bottom: 20vh;
+}

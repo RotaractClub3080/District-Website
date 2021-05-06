@@ -1,0 +1,25 @@
+.cbody{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    max-height: 97vh;
+    height: 100%;
+}
+.crow{
+    width: 100%;
+    height: 100%;
+}
+
+.cClub{
+    width:100%;
+    height: 50%;
+}
+
+.cSidebar{
+    padding:0px;
+}
+
+.posts{
+    margin-top: 2vh;
+    overflow-y: scroll;
+}

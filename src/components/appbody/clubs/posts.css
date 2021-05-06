@@ -1,0 +1,34 @@
+.img{
+    width:3vw;
+    height:3vw;
+    border-radius: 3vh;
+    margin-right: 2vw;
+    margin-left: 0px;
+    position: relative;
+}
+
+.clubNav{
+    display: flex;
+    position: relative;
+    align-content: flex-start;
+}
+
+.text{
+    font-size:normal;
+}
+
+.cardTitle{
+    background: white;
+    color:black;
+}
+
+.border{
+    border-color: rgb(53, 51, 51);
+    position: relative;
+    top:2vh;
+}
+
+.textBody{
+    color: white;
+    margin-top:2vh;
+}
